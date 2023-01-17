@@ -1,0 +1,34 @@
+{
+  "name": "ahj-diploma-chaos-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lap-Dmitry/AHJ-diploma-Chaos-server.git"
+  },
+  "author": "Dmitry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lap-Dmitry/AHJ-diploma-Chaos-server/issues"
+  },
+  "homepage": "https://github.com/lap-Dmitry/AHJ-diploma-Chaos-server#readme",
+  "dependencies": {
+    "forever": "^3.0.2",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.0.0",
+    "pm2": "^4.5.1",
+    "uuid": "^8.3.1",
+    "ws": "^7.4.2"
+  },
+  "engines": {
+    "node": "12.18.x",
+    "npm": "6.14.x"
+  }
+}
